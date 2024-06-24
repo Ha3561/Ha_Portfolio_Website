@@ -9,7 +9,7 @@ import About from "./components/About"
 import Technologies from "./components/Technologies" 
 import Experience from "./components/Experience" 
 import Projects from "./components/Projects" 
-//import Contact from  "./components/Contact"
+import Contact from  "./components/Contact"
 
 export default function Home() {
   return ( 
@@ -36,7 +36,7 @@ export default function Home() {
         <hr className='border-t-2 border-neutral-950' /> 
         <Technologies /> 
         <hr className='border-t-2 border-neutral-950' />  
-        <hr className='border-t-2 border-neutral-950' />
+        <Contact />
          
          
         <br />
