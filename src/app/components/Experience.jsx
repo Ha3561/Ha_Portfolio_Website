@@ -6,7 +6,7 @@ const workExperiences = [
     years: "2024-Present",
     description: [
       {
-        role: "lorem",
+        role: "Junior Project Associate",
         work:  "Worked on developing innovative sustainable solutions to solve the problems of farmers in Jhabua, Madhya Pradesh. The project was aimed at providing a sustainable source of income to the farmers by providing them with a platform to sell their products directly to the consumers.",
         start: "2024",
         end: "Present",
@@ -18,36 +18,51 @@ const workExperiences = [
  , // Replace with actual path
   },
   {
-    company: "Another Company",
-    years: "2023-2024",
+    company: "eDc",
+    years: "2024-2025",
     description: [
       {
-        role: "Developer",
+        role: "Corporate Relations Executive",
         work: "Worked on various development projects.",
         start: "2024",
         end: "Present", 
         
       }
     ],
-    url: "https://www.enactus-iitd.com/", // Replace with actual path
-    skills: ["Entrepreneurship", "Leadership", "Teamwork"]
+    url: "https://www.eDc-iitd.com/", // Replace with actual path
+    skills: ["Entrepreneurship", "Negotiations", "Teamwork", "Pitching"]
     // Replace with actual path
   },
   {
     // Example with no description to trigger the check
-    company: "Company Without Description",
-    years: "2022-2023", 
+    company: "BSW Tech Exe",
+    years: "2024-2025", 
     description: [
       {
         role: "Developer",
-        work: "Worked on various development projects.",
+        work: "Worked on upgrading and developing BSW's Website,Accessible to all the students of IIT-D",
         start: "2024",
         end: "Present",
         
       } ],
       url: "https://www.enactus-iitd.com/", // Replace with actual path 
-      skills: ["Entrepreneurship", "Leadership", "Teamwork"], // Add actual skills
+      skills: ["Web Development", "Product Development", "Teamwork"], // Add actual skills
   },
+  {
+    company: "Tryst Team Head", 
+    years: "2023-2024",
+    description : [
+
+    {
+    role: "Marketing Team Head, Developer",
+    work: "Made an email automator to mass send emails for marketing", 
+    start: "2023",
+    end: "2024"
+    }],
+    url:"https://example.com",
+    skills: ["Python Automation"]
+    
+  }
 ];
 
 const Experience = () => {
